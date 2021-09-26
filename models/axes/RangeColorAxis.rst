@@ -12,5 +12,5 @@ Example
 .. code:: csharp
 
     var model = new PlotModel { Title = "RangeColorAxis" };
-    model.Axes.Add(new LinearAxis { Position = AxisPosition.Bottom, Minimum = -20, Maximum = 80});
-    model.Axes.Add(new LinearAxis { Position = AxisPosition.Left, Minimum = -10, Maximum = 10});
+    model.Axes.Add(new RangeColorAxis { Position = AxisPosition.Bottom, Minimum = -20, Maximum = 80});
+    model.Axes.Add(new RangeColorAxis { Position = AxisPosition.Left, Minimum = -10, Maximum = 10});
